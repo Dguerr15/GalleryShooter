@@ -19,11 +19,11 @@ class GalleryShooter extends Phaser.Scene {
 
     }
     preload(){
-        this.load.image('ship', 'assets/ships/ship_0000.png');
+        this.load.image('ship', 'assets/Ships/ship_0000.png');
         this.load.image('background', 'assets/GSMap.png'); 
         this.load.image('bullet', 'assets/Tiles/tile_0012.png')
-        this.load.image('enemy', 'assets/ships/ship_0017.png');
-        this.load.image('bigEnemy', 'assets/ships/ship_0015.png');
+        this.load.image('enemy', 'assets/Ships/ship_0017.png');
+        this.load.image('bigEnemy', 'assets/Ships/ship_0015.png');
         this.load.audio('shoot', 'assets/Audio/laserRetro_003.ogg');
         this.load.audio('enemyShoot', 'assets/Audio/laserRetro_004.ogg');
         this.load.audio('explosion', 'assets/Audio/explosionCrunch_003.ogg')
